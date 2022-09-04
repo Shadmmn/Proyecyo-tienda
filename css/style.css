@@ -102,7 +102,8 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0%;
-  margin: 0%; }
+  margin: 0%;
+  background-color: #645A6E; }
 
 @media screen and (max-width: 600px) {
   .fut {
@@ -149,9 +150,6 @@ body {
     .redes-fut img {
       width: 4em;
       height: 4em; } }
-
-.bg-body-regis {
-  background-color: #645A6E; }
 
 @media screen and (max-width: 600px) {
   .img-head-regis {
