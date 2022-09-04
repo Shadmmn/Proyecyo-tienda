@@ -254,4 +254,18 @@ body {
       text-align: start; }
   .bg-regis {
     background-color: #645A6E;
-    padding: 10%; } }
+    padding: 10%; }
+  .dashe-regis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 10%; }
+  .dash-size-regis {
+    width: 2em;
+    height: 2em;
+    padding: 5% 2% 0 0%; }
+  .sec-dash {
+    display: flex;
+    flex-direction: row;
+    color: #FFEDE9;
+    padding: 2% 0; } }
