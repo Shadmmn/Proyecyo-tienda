@@ -45,7 +45,7 @@ $colorSection: #645A6E;
         font-size: .5em;
     }
 }
-.aside-regis{
+.aside-tarot{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,8 +62,25 @@ $colorSection: #645A6E;
         text-align: start;
     }
 }
-.bg-regis{
+.bg-tarot{
     background-color: $colorSection;
     padding: 10%;
+}
+.dashe-tarot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10% 10%;
+}
+.dash-size-tarot{
+    width: 2em;
+    height: 2em;
+    padding: 5% 2% 0 0%;
+}
+.sec-dash{
+    display: flex;
+    flex-direction: row;
+    color: $fontColor;
+    padding: 2% 0;
 }
 }

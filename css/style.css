@@ -185,7 +185,7 @@ body {
     .h2home h4 {
       color: #282328;
       font-size: .5em; }
-  .aside-regis {
+  .aside-tarot {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,9 +199,23 @@ body {
     text-align: center; }
     .curso-t p {
       text-align: start; }
-  .bg-regis {
+  .bg-tarot {
     background-color: #645A6E;
-    padding: 10%; } }
+    padding: 10%; }
+  .dashe-tarot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 10%; }
+  .dash-size-tarot {
+    width: 2em;
+    height: 2em;
+    padding: 5% 2% 0 0%; }
+  .sec-dash {
+    display: flex;
+    flex-direction: row;
+    color: #FFEDE9;
+    padding: 2% 0; } }
 
 @media screen and (max-width: 600px) {
   .img-head-regis {
