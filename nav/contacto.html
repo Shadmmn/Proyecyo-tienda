@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!--nav-->
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="registros.html">Registros</a>
+        <a href="tarot.html">Tarot</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="#about">About us</a>
+        <a href="#about">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+<!--nav-->
+    <div class="formulario">
+    <form name="contact" netlify class="as">
+        <h2>Contacto</h2>
+        <p>Consultas, turnos, ideas o, simplemente, saludos!</p>
+        <input class="input2" type="text" placeholder="Ingresa tu nombre" name="nombre" required>
+        <input class="input2" type="email" placeholder="Ingresa tu email" name="email" required>
+        <input class="input2" type="text" placeholder="Describe el asunto" name="asunto" required>
+        <textarea class="textarea2" name="msg" id="msg" placeholder="Ingrese su mensaje"></textarea>
+        <input type="submit" name="enviar" value="enviar">
+    </form>
+    </div>
+    <!--Fut-->
+<footer class="fut">
+    <img src="./rsc/licon.png" alt="">
+<div class="fut-d">
+    <section class="nav-fut">
+        <article class="nav-fut-1">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Registros</a>
+        <a href="#contact">Tarot</a>
+        <a href="#about">Cursos</a>
+        <a href="#about">About us</a>
+        <a href="#about">Contacto</a>
+        </article>
+        <article class="nav-fut-2">
+            <a href="#about">About us</a>
+            <a href="#about">Contacto</a>
+        </article>
+    </section>
+    <section class="redes-fut">
+        <img src="../rsc/igicon.png" alt="">
+        <img src="../rsc/twicon.png" alt="">
+        <img src="../rsc/wpicon.png" alt="">
+    </section>
+</div>
+</footer>
+<!--Fut-->
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
